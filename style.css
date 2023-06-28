@@ -1,0 +1,174 @@
+header {
+  height: 950px;
+  background-image: url("./img/bgc.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  color: #fff;
+}
+
+
+.test {
+  padding-left: 205px;
+  /* padding-top: 42px; */
+  list-style-type:  none;
+  display:inline-flex;
+  width: 321px;
+  height: 21px;
+}
+.pading {
+  padding-right: 40px;
+}
+
+.padding-126 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.header-menu__txt4 {
+padding-top: 42px;
+}
+
+.header-menu__img-search {
+  width: 24px;
+  height: 24px;
+  padding-top: 16px;
+}
+
+.header-menu__txt4 {
+  width: 24px;
+  height: 24px;
+  padding-top: 3px;
+}
+
+.header-menu__txt5 {
+  width: 123px;
+  height: 21px;
+  padding-top: 3px;
+  color: #FFF;
+  text-align: right;
+  font-size: 14px;
+  font-family: Gilroy;
+  line-height: 150%;
+}
+
+.header-menu__img-account {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding-top: 15px;
+}
+
+.header-menu__img-like {
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding-top: 15px;
+}
+
+.border {
+
+  border-right: 2px solid #fff;
+  /* padding-top: 830px; */
+  width: 160px;
+  height: 60px;
+
+}
+
+.header__6-logos {
+  padding-top: 800px;
+}
+
+
+
+
+.for-events {
+}
+.for-events__text {
+  font-size: 21px;
+  font-family: Gilroy;
+  line-height: 140%;
+}
+.for-events__Htext {
+  font-size: 30px;
+  font-family: Noto Serif;
+  font-weight: 700;
+}
+.for-events_btns {
+}
+.for-events_btns__btn1 {
+}
+.for-events_btns__btn2 {
+}
+.for-events_btns__btn3 {
+}
+.for-events_btns__btn4 {
+}
+.for-events_btns__btn5 {
+}
+.for-events_btns__btn6 {
+}
+.for-events_img-bloks {
+}
+.for-events_img-bloks__rings {
+  width: 350px;
+  height: 280px;
+  flex-shrink: 0;
+}
+.for-events_img-bloks__earRings {
+  width: 350px;
+  height: 280px;
+  flex-shrink: 0;
+}
+.for-events_img-bloks__pendants{
+  width: 350px;
+  height: 280px;
+  flex-shrink: 0;
+}
+.for-events_img-bloks__cufflinks {
+  width: 350px;
+  height: 280px;
+  flex-shrink: 0;
+}
+.for-events_img-bloks__brasalets {
+  width: 350px;
+  height: 280px;
+  flex-shrink: 0;
+}
+.for-events_img-bloks__clocks {
+  width: 350px;
+  height: 280px;
+  flex-shrink: 0;
+}
+
+.ul2 {
+  display: flex;
+  list-style-type:  none;
+  height: 280px;
+  padding-left: 150px;
+}
+
+.for-events_img-bloks__rings {
+  padding-right: 30px;
+  width: 350px;
+  height: 280px;
+}
+.for-events_img-bloks__earRings {
+  padding-right: 30px;
+  width: 350px;
+  height: 280px;
+
+}
+.for-events_img-bloks__pendants {
+  padding-right: 30px;
+  width: 350px;
+  height: 280px;
+
+}
+
+.for-events_img-bloks__rings-p {
+  
+  z-index: 1;
+}
