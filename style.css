@@ -1,21 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 header {
-  height: 950px;
+  height: 100vh;
   background-image: url("./img/bgc.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   color: #fff;
 }
 
-
-.test {
-  padding-left: 205px;
-  /* padding-top: 42px; */
-  list-style-type:  none;
-  display:inline-flex;
-  width: 321px;
-  height: 21px;
+.header-menu {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+.header-menu__buttons {
+  display: flex;
+  align-items: center;
+}
+.search-block {
+  display: flex;
+  align-items: center;
+}
+
+.header-catalog-btn {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width: fit-content;
+  padding: 15px 35px;
+}
+
 .pading {
   padding-right: 40px;
 }
@@ -25,64 +51,13 @@ header {
   padding-right: 40px;
 }
 
-.header-menu__txt4 {
-padding-top: 42px;
-}
-
-.header-menu__img-search {
-  width: 24px;
-  height: 24px;
-  padding-top: 16px;
-}
-
-.header-menu__txt4 {
-  width: 24px;
-  height: 24px;
-  padding-top: 3px;
-}
-
-.header-menu__txt5 {
-  width: 123px;
-  height: 21px;
-  padding-top: 3px;
-  color: #FFF;
-  text-align: right;
-  font-size: 14px;
-  font-family: Gilroy;
-  line-height: 150%;
-}
-
-.header-menu__img-account {
-  width: 24px;
-  height: 24px;
-  overflow: hidden;
-  flex-shrink: 0;
-  padding-top: 15px;
-}
-
-.header-menu__img-like {
-  width: 18px;
-  height: 18px;
-  overflow: hidden;
-  flex-shrink: 0;
-  padding-top: 15px;
-}
 
 .border {
-
   border-right: 2px solid #fff;
   /* padding-top: 830px; */
   width: 160px;
   height: 60px;
-
 }
-
-.header__6-logos {
-  padding-top: 800px;
-}
-
-
-
 
 .for-events {
 }
@@ -122,7 +97,7 @@ padding-top: 42px;
   height: 280px;
   flex-shrink: 0;
 }
-.for-events_img-bloks__pendants{
+.for-events_img-bloks__pendants {
   width: 350px;
   height: 280px;
   flex-shrink: 0;
@@ -145,7 +120,7 @@ padding-top: 42px;
 
 .ul2 {
   display: flex;
-  list-style-type:  none;
+  list-style-type: none;
   height: 280px;
   padding-left: 150px;
 }
@@ -159,16 +134,13 @@ padding-top: 42px;
   padding-right: 30px;
   width: 350px;
   height: 280px;
-
 }
 .for-events_img-bloks__pendants {
   padding-right: 30px;
   width: 350px;
   height: 280px;
-
 }
 
 .for-events_img-bloks__rings-p {
-  
   z-index: 1;
 }
